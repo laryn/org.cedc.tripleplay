@@ -32,7 +32,7 @@
  * $Id$
  *
  */
-class org_cedc_wsarcupdate extends CRM_Report_Form {
+class org_cedc_tripleplay extends CRM_Report_Form {
 
   protected $_summary = NULL;
   protected $_emailField_a = FALSE;
@@ -230,7 +230,7 @@ class org_cedc_wsarcupdate extends CRM_Report_Form {
         ),
         'grouping' => 'relation-fields',
       ),
-      'civicrm_relationship_type' => array(
+      'civicrm_relationship_type_c' => array(
         'dao' => 'CRM_Contact_DAO_RelationshipType',
         'fields' => array(
           'label_a_c' => array(
