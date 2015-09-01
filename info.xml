@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<extension key="org.cedc.tripleplay" type="report">
+  <file>tripleplay</file>
+  <name>Triple Play</name>
+  <description>Info about a contact and two related contacts</description>
+  <license>GPL</license>
+  <maintainer>
+    <author>Laryn Kragt Bakker</author>
+    <email>laryn@cedc.org</email>
+  </maintainer>
+  <urls>
+    <url desc="Main Extension Page">https://github.com/laryn/org.cedc.tripleplay</url>
+    <url desc="Documentation">https://github.com/laryn/org.cedc.tripleplay</url>
+    <url desc="Support">https://github.com/laryn/org.cedc.tripleplay</url>
+    <url desc="Licensing">https://github.com/laryn/org.cedc.tripleplay</url>
+  </urls>
+  <releaseDate>2015-09-01</releaseDate>
+  <version>1.0</version>
+  <develStage>alpha</develStage>
+  <compatibility>
+    <ver>4.2</ver>
+  </compatibility>
+  <comments>This is a new, undeveloped module</comments>
+  <civix/>
+  <typeInfo>
+    <component>Contact</component>
+    <reportUrl>org.cedc.tripleplay</reportUrl>
+  </typeInfo>
+</extension>
